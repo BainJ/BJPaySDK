@@ -1,0 +1,40 @@
+{
+  "name": "BJPaySDK",
+  "version": "0.0.1",
+  "summary": "支付宝 微信支付 SDK 集成",
+  "description": "支付宝 微信支付 的 SDK 集成",
+  "homepage": "https://github.com/BainJ/BJPaySDK",
+  "license": "MIT",
+  "authors": {
+    "bainj": "devbainj@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/BainJ/BJPaySDK.git",
+    "tag": "0.0.1"
+  },
+  "resources": "BJPaySDK/AliPaySDK/AlipaySDK.bundle",
+  "source_files": [
+    "BJPaySDK/AliPaySDK",
+    "BJPaySDK/AliPaySDK/AlipaySDK.bundle"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "UIKit",
+    "Foundation",
+    "CFNetwork",
+    "CoreMotion"
+  ],
+  "vendored_frameworks": "BJPaySDK/AliPaySDK/AlipaySDK.framework",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "requires_arc": true
+}

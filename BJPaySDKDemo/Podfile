@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+
+target 'BJPaySDKDemo' do
+  pod 'BJPaySDK', :path => '../'
+end

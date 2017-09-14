@@ -1,0 +1,1 @@
+../../../../../../BJPaySDK/AliPaySDK/AlipaySDK.framework/Headers/APayAuthInfo.h
