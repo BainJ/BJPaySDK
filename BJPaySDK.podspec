@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BJPaySDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "支付宝 微信支付 SDK 集成"
 
   # This description is used to generate tags and improve search results.
